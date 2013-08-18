@@ -1,0 +1,50 @@
+.translation-panel-trigger {
+    position: absolute;
+    display: block;
+    bottom: 0px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    z-index: 9999;
+
+    background: #363739;
+    border-top: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+
+    color: #FFFFFF;
+    font-size: 28px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+.translation-panel-trigger:hover {
+    text-decoration: underline;
+}
+.translation-panel {
+    display: block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+
+    background: #363739;
+    border-right: 2px solid #FFFFFF;
+
+    color: #FFFFFF;
+
+    -webkit-transition: width 1s;
+       -moz-transition: width 1s;
+         -o-transition: width 1s;
+            transition: width 1s;
+}
+.translation-panel.open {
+    width: 200px;
+}
+.translation-panel.shown {
+    display: block;
+}
+
+.translation {
+    background: red;
+}

@@ -1,0 +1,15 @@
+{
+    "name" : "translator.js",
+    "version" : "0.0.1",
+    "dependencies" : {
+    },
+    "devDependencies" : {
+        "grunt": "latest",
+        "grunt-contrib-jshint": "latest",
+        "karma": "latest",
+        "grunt-karma": "latest",
+        "grunt-contrib-uglify": "latest",
+        "grunt-contrib-jshint": "latest",
+        "grunt-contrib-watch": "latest"
+    }
+}
